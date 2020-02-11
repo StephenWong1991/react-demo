@@ -1,0 +1,18 @@
+.sider {
+  width: 100px;
+  height: 100vh;
+}
+
+.menuItem {
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.menuItem a {
+  display: block;
+}
+
+.active {
+  background: #ccc;
+}
