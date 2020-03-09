@@ -1,22 +1,22 @@
 export default {
   menus: [
     {
-      key: '/home',
-      title: 'home page',
-      name: 'home',
-      component: 'Home'
+      key: '/lifecycle',
+      title: 'lifecycle - 生命周期',
+      name: 'lifecycle',
+      component: 'Lifecycle'
     },
     {
-      key: '/about',
-      title: 'about page',
-      name: 'about',
-      component: 'About'
+      key: '/hook',
+      title: 'React HOOK',
+      name: 'HOOK',
+      component: 'Hook'
     },
     {
-      key: '/users',
-      title: 'users page',
-      name: 'users',
-      component: 'Users'
+      key: '/reactRedux',
+      title: 'React-redux',
+      name: 'reactRedux',
+      component: 'ReactRedux'
     },
   ]
 };

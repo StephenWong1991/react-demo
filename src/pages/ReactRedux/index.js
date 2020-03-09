@@ -1,11 +1,11 @@
 import React from 'react';
 
-function About() {
+function ReactRedux() {
   return (
     <div>
-      user page
+      React redux
     </div>
   );
 }
 
-export default About;
+export default ReactRedux;

@@ -2,21 +2,21 @@ import React from 'react';
 import Loadable from 'react-loadable';
 
 const Loading = () => <div>Loading...</div>;
-const Home = Loadable({
-  loader: () => import('./Home'),
+const Lifecycle = Loadable({
+  loader: () => import('./Lifecycle'),
   loading: Loading
 });
-const About = Loadable({
-  loader: () => import('./About'),
+const Hook = Loadable({
+  loader: () => import('./Hook'),
   loading: Loading
 });
-const Users = Loadable({
-  loader: () => import('./Users'),
+const ReactRedux = Loadable({
+  loader: () => import('./ReactRedux'),
   loading: Loading
 });
 
 export default {
-  Home,
-  About,
-  Users
+  Lifecycle,
+  Hook,
+  ReactRedux
 }
